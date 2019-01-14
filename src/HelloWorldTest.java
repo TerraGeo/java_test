@@ -1,4 +1,4 @@
-import static test.staticTasks.StaticTest.m;
+import static test.associate.staticTasks.StaticTest.m;
 
 public class HelloWorldTest {
     static int x = 2;
