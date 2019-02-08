@@ -1,5 +1,10 @@
 package test.professional.anonymousClasses;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
+import java.util.Date;
+
 public class AnonymousClassDeclarationInMethod {
 
     static int y = 0;
@@ -19,6 +24,7 @@ public class AnonymousClassDeclarationInMethod {
         };
 
         System.out.println(a.calc(2));
+        System.out.println(ZonedDateTime.now().toInstant().toEpochMilli());
         //((A) a).print(2);                 illegal method call
     }
 }
