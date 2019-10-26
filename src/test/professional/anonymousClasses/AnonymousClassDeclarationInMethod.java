@@ -25,6 +25,6 @@ public class AnonymousClassDeclarationInMethod {
 
         System.out.println(a.calc(2));
         System.out.println(ZonedDateTime.now().toInstant().toEpochMilli());
-        //((A) a).print(2);                 illegal method call
+        //((A) a).print(2);               // illegal method call
     }
 }

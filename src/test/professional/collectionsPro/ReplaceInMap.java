@@ -12,6 +12,7 @@ public class ReplaceInMap {
         map.put(3, "Three");
 
         map.replace(1, "1", null);
+        System.out.println(map);
         map.replace(3, null);
 
         System.out.println(map);
